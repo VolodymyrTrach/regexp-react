@@ -1,0 +1,16 @@
+$home-background-color: rgba(214, 218, 212, 0.863);
+$home-text-color: rgba(90, 150, 61, 0.863);
+
+.dgp-home-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $home-background-color;
+    color: $home-text-color;
+    height: 100vh;
+}
+.navigation-section{
+    background-color:$home-text-color;
+    color:  $home-background-color;
+}

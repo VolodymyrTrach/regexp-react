@@ -1,0 +1,10 @@
+$sandbox-background-color: hsl(225, 6%,25%);
+
+.sandbox {
+  height: 45vh;
+  display: flex;
+}
+
+.top-box{
+  background-color: $sandbox-background-color
+}

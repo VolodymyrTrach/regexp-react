@@ -25,7 +25,7 @@ const SandBoxPage = () => {
 
   return (
     <>
-    <Typography align="center" variant='h1'>Sandbox</Typography>
+      <Typography align="center" variant='h1'>Sandbox</Typography>
       <div className='sandbox top-box'>
         <Editor programmingLanguage='xml' title='HTML' value={html} onChange={setHtml} />
         <Editor programmingLanguage='javascript' title='JS' value={js} onChange={setJs} />
@@ -33,6 +33,7 @@ const SandBoxPage = () => {
       </div>
       <div className='sandbox'>
         <iframe
+          data-cy='iframe'
           srcDoc={srcDoc}
           title='output'
           sandbox='allow-scripts'
